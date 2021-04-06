@@ -1,7 +1,7 @@
 
 ### Todo
 
-You people decide and I will consider
+- [ ] You people decide and I will consider
 
 
 ### Done ✓
