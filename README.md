@@ -11,7 +11,7 @@ usage:
     6.  Change 'student id', 'password', 'firstname.lastname@student.tdsb.on.ca', 'First name', and 'Last name' to your info and run the program
    
 If you encounter a "Unable to locate element" error, add "time.sleep()" above the line with the error and re-run it.
-
+If there is alreeady a time.sleep() increase the value.
 
 You will encounter an error if you directly copy ```time.sleep()```
 
