@@ -19,3 +19,15 @@ You will encounter an error if you directly copy ```time.sleep()```
 I'll let you change it so you can actually learn (not spoonfeeding you people)
 
 If you want to use a specific driver, you need the corresponding browser.
+
+
+
+
+------------------------------------------
+
+
+
+### Todo
+
+- [x] Firefox users
+- [x] Edge users
