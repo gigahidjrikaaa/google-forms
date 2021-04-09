@@ -16,7 +16,7 @@ If you encounter a "Unable to locate element" error, add "time.sleep()" above th
 You will encounter an error if you directly copy ```time.sleep()```
 
 
-I'll let you change it so you can actually learn (no spoonfeeding smh)
+I'll let you change it so you can actually learn (not spoonfeeding you people)
 
 
 If you want to use Gecko driver, you need to install firefox; Chrome driver, you need to install chrome; Msedge driver you need to install Microsoft edge
