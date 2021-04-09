@@ -5,7 +5,7 @@ usage:
     
     1.  Go to https://www.python.org/downloads/ and download python 
     2.  Open cmd (press windows key and type cmd.exe) and type "pip install selenium" 
-    3.  Download any code editor that can run python. I used VS code https://code.visualstudio.com/ 
+    3.  Download any code editor that can run python. I used [VS code](https://code.visualstudio.com/) 
     4.  Download geckodriver (firefox) https://github.com/mozilla/geckodriver/releases or chromedriver https://chromedriver.chromium.org/downloads or msedgedriver https://developer.microsoft.com/en-us/microsoft-edge/tools/webdriver/
     5.  Copy the code into the code editor (I don't recommend this as you don't learn anything or at least understand the code) 
     6.  Change 'student id', 'password', 'First name', and 'Last name' to your info and run the program ('firstname.lastname@student.tdsb.on.ca' is aumatically changed with the f-string)
