@@ -23,3 +23,6 @@ If you want to use a specific driver, you need the corresponding browser.
 
 - [x] Firefox users
 - [x] Edge users
+
+------------------------------------------
+no longer supporting this repo so im unlikely to respond to bug reports
