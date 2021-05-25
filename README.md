@@ -24,5 +24,4 @@ If you want to use a specific driver, you need the corresponding browser.
 - [x] Firefox users
 - [x] Edge users
 
-------------------------------------------
 
