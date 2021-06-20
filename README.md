@@ -10,19 +10,14 @@ The form I used in the code is a replica of a previous attendance form.
    7.  Change 'student id', 'password', 'First name', and 'Last name' to your info and run the program ('firstname.lastname@student.tdsb.on.ca' is aumatically changed with the f-string)
    8.  Run it
 
-If you encounter a "Unable to locate element" error, add "time.sleep()" above the line with the error and re-run it.
+If you encounter a "Unable to locate element" error, add a `time.sleep()` above the line with the error and re-run it.
 If there is alreeady a time.sleep() increase the value.
 
-You will encounter an error if you directly copy ```time.sleep()```
+You will encounter an error if you directly copy `time.sleep()`
 Not gonna explain it so you people actually learn
 
 If you want to use a specific driver, you need the corresponding browser.
 
 ------------------------------------------
-
-### Todo
-
-- [x] Firefox users
-- [x] Edge users
 
 
