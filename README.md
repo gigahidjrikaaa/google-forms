@@ -25,7 +25,7 @@ First open the inspector
 ![step1](https://user-images.githubusercontent.com/75402062/124668587-176a7e00-de7f-11eb-8c1a-9da0f63c37f9.png)
 Then select the element
 ![step2](https://user-images.githubusercontent.com/75402062/124668639-26e9c700-de7f-11eb-9d64-7873fadd7e9a.png)
-Finally right click and select copy and select xpath
+Finally right click, select copy, and select xpath
 ![step3](https://user-images.githubusercontent.com/75402062/124668702-39640080-de7f-11eb-8e54-2215e936eb71.png)
 
 
