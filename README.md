@@ -28,4 +28,4 @@ Then select the element
 Finally right click, select copy, and select xpath
 ![step3](https://user-images.githubusercontent.com/75402062/124668702-39640080-de7f-11eb-8e54-2215e936eb71.png)
 
-Note that all the xpaths were fetched from google chrome
+Note that all the xpaths were fetched from google chrome but the example uses mozilla firefox
