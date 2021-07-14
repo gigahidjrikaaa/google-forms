@@ -7,7 +7,7 @@ The form I used in the code is a replica of a previous attendance form.
    4.  Download [geckodriver (Mozilla Firefox)](https://github.com/mozilla/geckodriver/releases) or [chromedriver (Chrome)](https://chromedriver.chromium.org/downloads) or [msedgedriver (Microsoft Edge)](https://developer.microsoft.com/en-us/microsoft-edge/tools/webdriver/)
    5.  After you install a driver go to the corresponding branch
    6.  Copy the code into the code editor (I don't recommend this as you don't learn anything, or at least understand the code) 
-   7.  Change `config.json` accordingly
+   7.  Change `config.json` accordingly (might need to change the email to add a number) for example from `{firstName}.{lastName}@student.tdsb.on.ca` to `{firstName}.{lastName}3@student.tdsb.on.ca`
    8.  Run it
 
 
