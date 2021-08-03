@@ -9,7 +9,7 @@ The form I used in the code is a replica of a previous attendance form.
    6.  Copy the code into the code editor (I don't recommend this as you don't learn anything, or at least understand the code) 
    7.  Change `config.json` accordingly (might need to change the email to add a number)  
 for example from `{firstName}.{lastName}@student.tdsb.on.ca` to `{firstName}.{lastName}3@student.tdsb.on.ca`
-   9.  Run it
+   9.  Run the main file
 
 
 If you want to use a specific driver, you need the corresponding browser.
