@@ -1,5 +1,4 @@
 Use this code to fill in a google form automatically.
-The form I used in the code is a replica of a previous attendance form.
 
    1.  Download [Python](https://www.python.org/downloads/) 
    2.  Open cmd (command prompt) and type "pip install selenium" 
