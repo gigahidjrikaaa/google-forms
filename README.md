@@ -19,7 +19,7 @@ To find an elements xpath:
 First open the inspector
 ![step1](https://user-images.githubusercontent.com/75402062/128521955-bc71050f-3748-443a-b092-0ad35ace52d4.png)
 Then select the element
-![step2](https://user-images.githubusercontent.com/75402062/124668639-26e9c700-de7f-11eb-9d64-7873fadd7e9a.png)
+![step2](https://user-images.githubusercontent.com/75402062/128522125-0e027566-43b9-48a5-88bb-9254af0f91f8.png)
 Finally right click, select copy, and select xpath
 ![step3](https://user-images.githubusercontent.com/75402062/124668702-39640080-de7f-11eb-8e54-2215e936eb71.png)
 
