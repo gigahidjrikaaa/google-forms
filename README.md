@@ -7,7 +7,7 @@ Use this code to fill in a google form automatically.
    5.  After you install a driver go to the corresponding folder
    6.  Copy the code into the code editor (I don't recommend this as you don't learn anything, or at least understand the code) 
    7.  Change `config.json` accordingly (might need to change the email to add a number)  
-for example from `{firstName}.{lastName}@student.tdsb.on.ca` to `{firstName}.{lastName}3@student.tdsb.on.ca`
+for example from `{firstName}.{lastName}@student.tdsb.on.ca` to `{firstName}.{lastName}7@student.tdsb.on.ca`
    9.  Run the `main.py` file
 
 
