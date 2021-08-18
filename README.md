@@ -3,7 +3,7 @@ Use this code to fill in a google form automatically.
    1.  Download [Python](https://www.python.org/downloads/) 
    2.  Open cmd (command prompt) and type "pip install selenium" 
    3.  Download any code editor that can run python. I use [VS code](https://code.visualstudio.com/) with a [python extension](https://code.visualstudio.com/docs/languages/python).
-   4.  Download [geckodriver (Mozilla Firefox)](https://github.com/mozilla/geckodriver/releases), [chromedriver (Chrome)](https://chromedriver.chromium.org/downloads) or [msedgedriver (Microsoft Edge)](https://developer.microsoft.com/en-us/microsoft-edge/tools/webdriver/) and place it directly in the C:\ drive. If you know how paths work, place it wherever you want and change the path.
+   4.  Download [geckodriver (Mozilla Firefox)](https://github.com/mozilla/geckodriver/releases), [chromedriver (Chrome)](https://chromedriver.chromium.org/downloads) or [msedgedriver (Microsoft Edge)](https://developer.microsoft.com/en-us/microsoft-edge/tools/webdriver/) and place it directly in the C:\ drive. If you know how paths work, place it wherever you want and change the path. (Windows only) if you use Linux/MacOS you should know how to use paths on said OS
    5.  After you install a driver go to the corresponding folder
    6.  Copy the code into the code editor (I don't recommend this as you don't learn anything, or at least understand the code) 
    7.  Change `config.json` accordingly 
