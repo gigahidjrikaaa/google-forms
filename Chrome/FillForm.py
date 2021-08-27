@@ -18,43 +18,44 @@ class fillForm:
     def login(self):
         self.web.get(self.link)
         try:
-            emailpath = self.web.find_element_by_xpath('//*[@id="identifierId"]')
+            emailpath = self.find('//*[@id="identifierId"]')
 
         except:
-            emailpath = self.web.find_element_by_xpath('//*[@id="Email"]')
+            emailpath = self.find('//*[@id="Email"]')
           
         emailpath.send_keys(self.email)
         emailpath.send_keys(Keys.ENTER)
 
         username_textbox = self.find('//*[@id="UserName"]')
-
         username_textbox.send_keys(self._id)
-        password_textbox = self.web.find_element_by_xpath('//*[@id="Password"]')
+
+        password_textbox = self.find('//*[@id="Password"]')
         password_textbox.send_keys(self.passw)
         password_textbox.send_keys(Keys.ENTER)
         
-        validator = self.find('//*[@id="view_container"]/div/div/div[2]/div/div[2]/div/div[1]/div/div/button/span') #Validator cuz chrome sucks
+        validator = self.find('//*[@id="view_container"]/div/div/div[2]/div/div[2]/div/div[1]/div/div/button/span') #validator cuz chrome sucks
         validator.click()
         
+
     def fill(self):
         idnum = self.find('//*[@id="mG61Hd"]/div[2]/div/div[2]/div[1]/div/div/div[2]/div/div[1]/div/div[1]/input')
         idnum.click()
         idnum.send_keys(self._id)
 
-        first = self.web.find_element_by_xpath('//*[@id="mG61Hd"]/div[2]/div/div[2]/div[2]/div/div/div[2]/div/div[1]/div/div[1]/input')
+        first = self.find('//*[@id="mG61Hd"]/div[2]/div/div[2]/div[2]/div/div/div[2]/div/div[1]/div/div[1]/input')
         first.send_keys(self.fName)
 
-        last = self.web.find_element_by_xpath('//*[@id="mG61Hd"]/div[2]/div/div[2]/div[3]/div/div/div[2]/div/div[1]/div/div[1]/input')
+        last = self.find('//*[@id="mG61Hd"]/div[2]/div/div[2]/div[3]/div/div/div[2]/div/div[1]/div/div[1]/input')
         last.send_keys(self.lName)
 
-        RadioCohort = self.web.find_element_by_xpath('//*[@id="mG61Hd"]/div[2]/div/div[2]/div[4]/div/div/div[2]/div/div[1]/div[1]/div[1]')
+        RadioCohort = self.find('//*[@id="mG61Hd"]/div[2]/div/div[2]/div[4]/div/div/div[2]/div/div[1]/div[1]/div[1]')
         RadioCohort.click()
 
-        Cohort = self.web.find_element_by_xpath('//*[@id="mG61Hd"]/div[2]/div/div[2]/div[4]/div/div/div[2]/div/div[2]/div[3]')
+        Cohort = self.find('//*[@id="mG61Hd"]/div[2]/div/div[2]/div[4]/div/div/div[2]/div/div[2]/div[3]')
         Cohort.click()
 
     def submit(self):
-        Submit = self.web.find_element_by_xpath('//*[@id="mG61Hd"]/div[2]/div/div[3]/div[1]/div/div/span')
+        Submit = self.find('//*[@id="mG61Hd"]/div[2]/div/div[3]/div[1]/div/div/span')
         Submit.click()
 
     def find(self, path):
