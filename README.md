@@ -24,3 +24,6 @@ Then select the element
 Finally right click, select copy, and select xpath
 ![step3](https://user-images.githubusercontent.com/75402062/128522228-c6e119e2-bdd0-4c20-8640-4db57b9f31d3.png)
 Note that all the xpaths were fetched from google chrome but the example uses mozilla firefox
+
+
+All code was working as of August 26th, 2021
