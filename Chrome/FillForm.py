@@ -32,7 +32,10 @@ class fillForm:
         password_textbox = self.web.find_element_by_xpath('//*[@id="Password"]')
         password_textbox.send_keys(self.passw)
         password_textbox.send_keys(Keys.ENTER)
-
+        
+        validator = self.find('//*[@id="view_container"]/div/div/div[2]/div/div[2]/div/div[1]/div/div/button/span') #Validator cuz chrome sucks
+        validator.click()
+        
     def fill(self):
         idnum = self.find('//*[@id="mG61Hd"]/div[2]/div/div[2]/div[1]/div/div/div[2]/div/div[1]/div/div[1]/input')
         idnum.click()
