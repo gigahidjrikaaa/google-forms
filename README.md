@@ -26,4 +26,4 @@ Finally right click, select copy, and select xpath
 Note that all the xpaths were fetched from google chrome but the example uses mozilla firefox
 
 
-All code was working as of August 26th, 2021
+All code is working as of August 26th, 2021
