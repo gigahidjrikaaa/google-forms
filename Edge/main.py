@@ -4,7 +4,7 @@ from selenium import webdriver
 
 user = get_data()
 data = {
-  "web" : webdriver.Edge("C:\\msedgedriver.exe")
+  "web" : webdriver.Edge("C:\\msedgedriver.exe"),
   "_id" : user["id"],
   "fName" : user["first"],
   "lName" : user["last"],
