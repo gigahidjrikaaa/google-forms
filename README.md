@@ -1,5 +1,9 @@
 Use this code to fill in a google form automatically.
 
+
+Instructions
+------------------------------------------  
+
    1.  Download [Python](https://www.python.org/downloads/) 
    2.  Open cmd (command prompt) and type "pip install selenium" 
    3.  Download any code editor that can run python. I use [VS code](https://code.visualstudio.com/) with a [python extension](https://code.visualstudio.com/docs/languages/python).
@@ -12,9 +16,14 @@ for example from `{firstName}.{lastName}@student.tdsb.on.ca` to `{firstName}.{la
    9.  Run the `main.py` file
 
 
-If you want to use a specific driver, you need the corresponding browser.
 
-------------------------------------------
+Notes
+------------------------------------------  
+
+ - You could open the file with a normal text editor, and run the file from the command line.
+
+ - If you want to use a specific driver, you need the corresponding browser.
+
 To find an elements xpath:
 
 First open the inspector
@@ -23,7 +32,8 @@ Then select the element
 ![step2](https://user-images.githubusercontent.com/75402062/128522125-0e027566-43b9-48a5-88bb-9254af0f91f8.png)
 Finally right click, select copy, and select xpath
 ![step3](https://user-images.githubusercontent.com/75402062/128522228-c6e119e2-bdd0-4c20-8640-4db57b9f31d3.png)
-Note that all the xpaths were fetched from google chrome but the example uses mozilla firefox
 
+
+All the xpaths were fetched from Google Chrome but the examples use Mozilla Firefox
 
 All code is working as of August 26th, 2021
