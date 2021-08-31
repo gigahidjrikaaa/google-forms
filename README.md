@@ -1,10 +1,8 @@
 # Google forms
 Use this code to fill in a google form automatically.
 
-
 Instructions
 ------------------------------------------  
-
    1.  Download [Python](https://www.python.org/downloads/) with pip (you will need to do this manually during the installation of python)
    2.  Open cmd (command prompt) and type `pip install selenium` 
    3.  Download any code editor that can run python. I use [VS code](https://code.visualstudio.com/) with a [python extension](https://code.visualstudio.com/docs/languages/python).
@@ -16,8 +14,6 @@ Instructions
 for example from:  
 `{firstName}.{lastName}@student.tdsb.on.ca` to `{firstName}.{lastName}7@student.tdsb.on.ca`
    9.  Run the `main.py` file
-
-
 
 Notes
 ------------------------------------------  
