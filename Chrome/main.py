@@ -9,7 +9,7 @@ data = {
   "fName" : user["first"],
   "lName" : user["last"],
   "passw" : user["password"],
-  "email" : f"{user['first']}.{user['last']}@student.tdsb.on.ca", #there might be a number after the last name
+  "email" : f"{user['first']}.{user['last']}@student.tdsb.on.ca", # there might be a number after the last name
   "link" : user['link']
 }
 

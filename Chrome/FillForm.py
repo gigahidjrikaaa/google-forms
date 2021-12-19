@@ -33,7 +33,7 @@ class fillForm:
         password_textbox.send_keys(self.passw)
         password_textbox.send_keys(Keys.ENTER)
         
-        validator = self.find('//*[@id="view_container"]/div/div/div[2]/div/div[2]/div/div[1]/div/div/button/span') #validator cuz chrome sucks
+        validator = self.find('//*[@id="view_container"]/div/div/div[2]/div/div[2]/div/div[1]/div/div/button/span') # validator cuz chrome sucks
         validator.click()
         
 
