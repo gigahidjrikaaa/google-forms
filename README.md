@@ -1,5 +1,5 @@
 # Google forms
-Use this code to fill in a google form automatically.
+Use this code to fill in a google form.
 
 Instructions
 ------------------------------------------  
