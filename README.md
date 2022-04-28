@@ -1,8 +1,12 @@
 # Google forms
 Use this code to fill in a google form.
 
+Backstory
+---------------------------
+When virtual learning started due to covid, we had a google form to fill in for attendance. At that time, I felt that it was pointless to fill-in and submit the same form everyday. So then, I decided to use python and automate this task. When I first starter this, it only worked on 1 browser. When i tested it on a differet browser, I realized that it had performed a bit differently. Now it has support for the 3 different browsers.
+
 Instructions
-------------------------------------------  
+---------------------------  
    1.  Download [Python](https://www.python.org/downloads/) along with pip (you will need to do this manually during the installation of python)
    2.  Open cmd (command prompt) and type `pip install selenium` 
    3.  Download any code editor that can run python. I use [VS code](https://code.visualstudio.com/) with a [python extension](https://code.visualstudio.com/docs/languages/python).
