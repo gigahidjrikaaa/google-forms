@@ -5,6 +5,17 @@ Backstory
 ---------------------------
 When virtual learning started due to covid, we had a google form to fill in for attendance. At that time, I felt that it was pointless to fill-in and submit the same form everyday. So then, I decided to use python and automate this task. When I first starter this, it only worked on 1 browser. When i tested it on a differet browser, I realized that it had performed a bit differently. Now it has support for 3 different browsers.
 
+Before using the code, not that selemium has bee updated and xpaths are used differently.
+Now you would probably use
+
+```py
+from selenium.webdriver.common.by import By
+...
+driver.find_element(By.XPATH, '//*[@id="Email"]')
+```
+
+
+
 Instructions
 ---------------------------  
    1.  Download [Python](https://www.python.org/downloads/) along with pip (you will need to do this manually during the installation of python)
