@@ -27,7 +27,8 @@ Instructions
    7.  Change `config.json` accordingly 
    8.  You might need to change the email in the `main.py` file to add a number 
 for example from:  
-`{firstName}.{lastName}@student.tdsb.on.ca` to `{firstName}.{lastName}7@student.tdsb.on.ca`
+`{firstName}.{lastName}@student.tdsb.on.ca` to `{firstName}.{lastName}7@student.tdsb.on.ca`<br>
+    you might need to change the email depending on the form and your domain.
    9.  Run the `main.py` file
 
 Notes
